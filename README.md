@@ -10,3 +10,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + setup mod calculation based on the wholecycleduration.
 + setup class name and print class properly.
 
+## Ep3_Run Between Target Points.
++ setup behavior tree and blackboard.
++ run behavior tree with choose next target point and move to.
++ setup new AI controller.
+
+
