@@ -7,7 +7,10 @@
 		{
 			"Name": "DemoVer1_Huawei",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	]
 }
