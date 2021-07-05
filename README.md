@@ -22,3 +22,7 @@ This is Huawei's part for Porj221 Demo Ver1
 ## Ep5_Get Blackboard Comp and Value in AI BP (with tick)
 + add a new function with tick component to detect blackboard value/key change.
 + remove set blackboard key value in the behavior tree, as it becomes difficult to abort itself in the behavior tree.
+
+## Ep6_Set light change
++ add a new function in LEVEL blueprint (note that this is a dangerous move) for changing the light according to the time (sun degree).
+
