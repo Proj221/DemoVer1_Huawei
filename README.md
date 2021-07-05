@@ -19,4 +19,6 @@ This is Huawei's part for Porj221 Demo Ver1
 + add new GetNextTargetPoint in AI blueprint for defining which target point to go. Outdoor / Indoor.
 + setup sub behavior tree to read target point and to set blackboard key.
 
-
+## Ep5_Get Blackboard Comp and Value in AI BP (with tick)
++ add a new function with tick component to detect blackboard value/key change.
++ remove set blackboard key value in the behavior tree, as it becomes difficult to abort itself in the behavior tree.
