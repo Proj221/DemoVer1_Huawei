@@ -26,3 +26,12 @@ This is Huawei's part for Porj221 Demo Ver1
 ## Ep6_Set light change
 + add a new function in LEVEL blueprint (note that this is a dangerous move) for changing the light according to the time (sun degree).
 
+## Ep7_Set camera tweaking
++ add key ALT to enable and disable the camera tweaking
++ add logic to tick flow on checking IsTweakingCamera
++ if is tweaking, then go into tweaking process, containing 1) change the camera spring length and 2) change the camera yaw and pitch.
++ add logic in PlayerController source code to acoomodate the tweaking camera. Only if bMoveToCursor = True and !bTweakingCamera = True, then move to curser.
++ update ignore list to get back Mannequin and other assets for clone convenience.
+
+
+

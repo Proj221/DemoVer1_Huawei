@@ -18,7 +18,7 @@ void ADemoVer1_HuaweiPlayerController::PlayerTick(float DeltaTime)
 	Super::PlayerTick(DeltaTime);
 
 	// keep updating the destination every tick while desired
-	if (bMoveToMouseCursor)
+	if (bMoveToMouseCursor && !bIsCameraRotating)
 	{
 		MoveToMouseCursor();
 	}
@@ -109,4 +109,8 @@ void ADemoVer1_HuaweiPlayerController::OnSetDestinationReleased()
 {
 	// clear flag to indicate we should stop updating the destination
 	bMoveToMouseCursor = false;
+}
+
+void ADemoVer1_HuaweiPlayerController::SetMoveToMouseCursor(bool ToSet) {
+	bIsCameraRotating = ToSet;
 }

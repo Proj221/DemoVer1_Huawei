@@ -14,9 +14,15 @@ class ADemoVer1_HuaweiPlayerController : public APlayerController
 public:
 	ADemoVer1_HuaweiPlayerController();
 
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void SetMoveToMouseCursor(bool ToSet);
+
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
+
+	/** True if the controlled character should navigate to the mouse cursor. */
+	bool bIsCameraRotating = false;
 
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
