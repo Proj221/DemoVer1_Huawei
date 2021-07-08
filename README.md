@@ -33,5 +33,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + add logic in PlayerController source code to acoomodate the tweaking camera. Only if bMoveToCursor = True and !bTweakingCamera = True, then move to curser.
 + update ignore list to get back Mannequin and other assets for clone convenience.
 
+## Ep8_Set Decorator in behavior tree
++ add a new decorator in BT to judge the distance between the AI and the player. Note that the owner actor is the AI contoller which needs to be casted into the AI controller and get the controlled pawn.
++ temperarily disconnect the target point to the indoor and outdoor target points.
++ note that the target point is not able to use IsAtLocation to check the validity.
 
 
