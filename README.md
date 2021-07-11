@@ -38,4 +38,11 @@ This is Huawei's part for Porj221 Demo Ver1
 + temperarily disconnect the target point to the indoor and outdoor target points.
 + note that the target point is not able to use IsAtLocation to check the validity.
 
+## Ep9_Set another Decorator to BT
++ remove the previous decorator on checking the class on/off
++ class on/off would be sensed in the character, and further to the AIcontroller for defining the next target point (position).
++ add a new decorator to check if the actor is near the target point. Decorator would abort the BT task if the distance is smaller than the thresold set in BT_Deco.
++ TODO: Magic number injected in the decorator.
++ NOTE: Should still check if the decorator can be saved by the distance set by MoveTo.
+
 
