@@ -45,4 +45,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + TODO: Magic number injected in the decorator.
 + NOTE: Should still check if the decorator can be saved by the distance set by MoveTo.
 
+## Ep10_Add new game state to store game related params
++ add game state to store game preset params and dynamic params
++ refactor chara_body and game mode for accomodating the game state creation
++ TODO: refactor AIController to accomodate the game state creation
+
 
