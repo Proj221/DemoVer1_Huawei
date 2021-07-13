@@ -42,12 +42,18 @@ This is Huawei's part for Porj221 Demo Ver1
 + remove the previous decorator on checking the class on/off
 + class on/off would be sensed in the character, and further to the AIcontroller for defining the next target point (position).
 + add a new decorator to check if the actor is near the target point. Decorator would abort the BT task if the distance is smaller than the thresold set in BT_Deco.
-+ TODO: Magic number injected in the decorator.
++ TODO: Magic number injected in the decorator. (done)
 + NOTE: Should still check if the decorator can be saved by the distance set by MoveTo.
 
 ## Ep10_Add new game state to store game related params
 + add game state to store game preset params and dynamic params
 + refactor chara_body and game mode for accomodating the game state creation
-+ TODO: refactor AIController to accomodate the game state creation
++ TODO: refactor AIController to accomodate the game state creation (Ep11) Partially refactored AIController, need to have a more clear line between the get target vecotr and set blackboard comp key.
+
+## Ep11_Add new target sets
++ add 2 boxes to cover the outdoor space and indoor space
++ generate random vectors when the class on off states are changed
++ move to the randorm generated vectors according to the blackboard key
++ ISSUE inject: sometimes the off class status will not trigger AIcontroller to move to outdoor space.
 
 
