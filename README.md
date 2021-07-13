@@ -54,6 +54,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + add 2 boxes to cover the outdoor space and indoor space
 + generate random vectors when the class on off states are changed
 + move to the randorm generated vectors according to the blackboard key
-+ ISSUE inject: sometimes the off class status will not trigger AIcontroller to move to outdoor space.
++ ISSUE01 inject: sometimes the off class status will not trigger AIcontroller to move to outdoor space.
+
+## Ep12_Bug fix
++ ISSUE01 resolve: in level blueprint there are 2 functions duplicate the codes. Two should always be changed together.
 
 
