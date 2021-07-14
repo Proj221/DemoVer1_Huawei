@@ -59,4 +59,8 @@ This is Huawei's part for Porj221 Demo Ver1
 ## Ep12_Bug fix
 + ISSUE01 resolve: in level blueprint there are 2 functions duplicate the codes. Two should always be changed together.
 
+## Ep13_Add AI perception
++ add AI sight and hearing perception. Only sight is functional as their is no hearing event trigger.
++ add behavior tree decorator to check the blackboard value on notifiedActor.
++ add a new string set in game state to store the blackboard value.
 
