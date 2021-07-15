@@ -64,3 +64,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + add behavior tree decorator to check the blackboard value on notifiedActor.
 + add a new string set in game state to store the blackboard value.
 
+## Ep14_Add AI control (WASD) and refactor the file struct
++ add AI control with keyboard with WASD (in character)
++ refactor the file struct
+
+
+
