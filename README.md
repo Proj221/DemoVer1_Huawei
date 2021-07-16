@@ -68,5 +68,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + add AI control with keyboard with WASD (in character)
 + refactor the file struct
 
+## Ep15_Add Spacebar control
++ add spacebar to control the player pawn is sending out the interaction request
++ change logic in behavior tree with 2 pre-requistes before accpeting interaction (1. is notified actor & 2. is receiving interaction request)
+
 
 
