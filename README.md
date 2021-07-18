@@ -78,4 +78,5 @@ This is Huawei's part for Porj221 Demo Ver1
 + add child actor component to the character and set the rotation of this child always towards camera
 + add logic in AI perception where when the AI meets the player, the bubble turns red and otherwise remain green
 
+## Pt1_Add camera transfer from one position (rotation) to the other
 
