@@ -72,5 +72,10 @@ This is Huawei's part for Porj221 Demo Ver1
 + add spacebar to control the player pawn is sending out the interaction request
 + change logic in behavior tree with 2 pre-requistes before accpeting interaction (1. is notified actor & 2. is receiving interaction request)
 
+## Ep16_Add overhead bubble
++ add new bubble widget with an image
++ add bubble widget to an actor component with root as a cube
++ add child actor component to the character and set the rotation of this child always towards camera
++ add logic in AI perception where when the AI meets the player, the bubble turns red and otherwise remain green
 
 
