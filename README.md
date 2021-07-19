@@ -78,5 +78,10 @@ This is Huawei's part for Porj221 Demo Ver1
 + add child actor component to the character and set the rotation of this child always towards camera
 + add logic in AI perception where when the AI meets the player, the bubble turns red and otherwise remain green
 
-## Pt1_Add camera transfer from one position (rotation) to the other
+## Ep17_Add PlayerCameraRotation
++ add logic in AIController for checking if a conversation session has been raised
++ add logic in CharaBody for controlling the camera rotation (set and restore) if SpaceBar has been pressed
++ add view control in game state to control the pitch, yaw and roll angle, as well as the camera boom length
++ add logic in CharaBody on the chara body rotation, to make the player faces to the AI once SpaceBar has been pressed
+
 
