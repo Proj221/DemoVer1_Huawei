@@ -84,4 +84,8 @@ This is Huawei's part for Porj221 Demo Ver1
 + add view control in game state to control the pitch, yaw and roll angle, as well as the camera boom length
 + add logic in CharaBody on the chara body rotation, to make the player faces to the AI once SpaceBar has been pressed
 
+## Ep18_Add new teacher character
++ add new teacher controller
++ add new behavior tree
++ check is my class before going to the class desktop
 
