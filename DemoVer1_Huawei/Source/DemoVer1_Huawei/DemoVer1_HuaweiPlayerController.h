@@ -17,12 +17,18 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void SetMoveToMouseCursor(bool ToSet);
 
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void SetIsInConversation(bool ToSet);
+
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
 
 	/** True if the controlled character should navigate to the mouse cursor. */
 	bool bIsCameraRotating = false;
+
+	/** True if the controlled character should navigate to the mouse cursor. */
+	bool bInConversation = false;
 
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;

@@ -18,7 +18,7 @@ void ADemoVer1_HuaweiPlayerController::PlayerTick(float DeltaTime)
 	Super::PlayerTick(DeltaTime);
 
 	// keep updating the destination every tick while desired
-	if (bMoveToMouseCursor && !bIsCameraRotating)
+	if (bMoveToMouseCursor && !bIsCameraRotating && !bInConversation)
 	{
 		MoveToMouseCursor();
 	}
@@ -113,4 +113,8 @@ void ADemoVer1_HuaweiPlayerController::OnSetDestinationReleased()
 
 void ADemoVer1_HuaweiPlayerController::SetMoveToMouseCursor(bool ToSet) {
 	bIsCameraRotating = ToSet;
+}
+
+void ADemoVer1_HuaweiPlayerController::SetIsInConversation(bool ToSet) {
+	bInConversation = ToSet;
 }

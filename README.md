@@ -93,5 +93,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + add new decorator @ MoveTo
 + refactor TeacherAI
 
+## Ep20_Add new widget when talking
++ add new widget to HUD when talking with NPC
++ add a button to end conversation sessions
++ add a new check in Character CPP file. If player in conversation, moveToCursor will be disabled.
 
 
