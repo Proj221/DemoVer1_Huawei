@@ -89,3 +89,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + add new behavior tree
 + check is my class before going to the class desktop
 
+## Ep19_Add new decorator in studentAI
++ add new decorator @ MoveTo
++ refactor TeacherAI
+
+
+
