@@ -98,4 +98,8 @@ This is Huawei's part for Porj221 Demo Ver1
 + add a button to end conversation sessions
 + add a new check in Character CPP file. If player in conversation, moveToCursor will be disabled.
 
+## Ep21_Resolve keyboard control and mouse control conflicts
++ add a check in playercontroller when moveToCursor
++ add bIsKeyboardControl
++ set bIsKeyboardControl to TRUE if any keyboard input is set.
 

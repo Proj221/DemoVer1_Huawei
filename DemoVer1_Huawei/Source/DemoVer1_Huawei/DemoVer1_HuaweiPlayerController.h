@@ -20,6 +20,9 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Input")
 	void SetIsInConversation(bool ToSet);
 
+	UFUNCTION(BlueprintCallable, Category = "Input")
+	void SetIsKeyboardControl(bool ToSet);
+
 protected:
 	/** True if the controlled character should navigate to the mouse cursor. */
 	uint32 bMoveToMouseCursor : 1;
@@ -29,6 +32,9 @@ protected:
 
 	/** True if the controlled character should navigate to the mouse cursor. */
 	bool bInConversation = false;
+
+	/** True if the controlled character should navigate to the mouse cursor. */
+	bool bIsKeyboardControl = false;
 
 	// Begin PlayerController interface
 	virtual void PlayerTick(float DeltaTime) override;
