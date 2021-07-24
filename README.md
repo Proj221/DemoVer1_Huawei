@@ -103,3 +103,8 @@ This is Huawei's part for Porj221 Demo Ver1
 + add bIsKeyboardControl
 + set bIsKeyboardControl to TRUE if any keyboard input is set.
 
+## Ep22_Add line trace by object to those SM blocking the camera visibility
++ add line trace by objects at each tick
++ add if blocked, then make it transparent
++ bug left: 1st first MoveToCursor, then use keyboard control, the character would not be able to move correctly; 2nd after rotating the camera, WASD would not be able to use correctly.
+
