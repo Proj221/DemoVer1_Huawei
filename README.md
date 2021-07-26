@@ -111,3 +111,7 @@ This is Huawei's part for Porj221 Demo Ver1
 ## Ep23_Fix keyboard control and cursor control conflicts
 + add bCanBreak boolean var in CPP
 
+## Ep24_Fix keyboard direction issue
++ add camera tweak yaw compensation to the movement control
++ add speed control to tweak camera with factor from 1 to 10
+
