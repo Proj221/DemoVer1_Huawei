@@ -139,3 +139,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + CheckInteractionRaised, interaction has some bugs, how to difference the student with the teacher?
 + ConversationDisplay, minor fix
 
+## Ep28_Refactor Character bodies
++ fix player movement bugs (cannot move correctly when keyboard and curosr control at same time)
++ refactor characters
+
+
+

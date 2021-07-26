@@ -18,7 +18,7 @@ void ADemoVer1_HuaweiPlayerController::PlayerTick(float DeltaTime)
 	Super::PlayerTick(DeltaTime);
 
 	// keep updating the destination every tick while desired
-	if (bMoveToMouseCursor && !bIsCameraRotating && !bInConversation)
+	if (bMoveToMouseCursor && !bIsCameraRotating && !bInConversation && !bIsKeyboardControl)
 	{
 		MoveToMouseCursor();
 	}
