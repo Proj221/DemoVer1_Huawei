@@ -122,3 +122,8 @@ This is Huawei's part for Porj221 Demo Ver1
 + TeacherAI, set new blackboard keys
 + TeacherAIBlackboard, change teacher logic, add move to and rotate to
 + TeacherAIController, disable use controller rotation yaw, enable use controller desired rotation, to make the rotation smoothly
+
+## Ep26_Seperate Student body with Player Body
++ Add 2 new material instance from M_Male_Body to seperate/distinguish teacher (red) with student (green)
++ Seperate TeacherBody, StudentBody and CharaBody (especially for player)
+
