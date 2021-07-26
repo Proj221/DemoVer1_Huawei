@@ -143,5 +143,8 @@ This is Huawei's part for Porj221 Demo Ver1
 + fix player movement bugs (cannot move correctly when keyboard and curosr control at same time)
 + refactor characters
 
+## Ep29_Make the student look at the teacher
++ make the student look at the teacher once they reach the position
+
 
 
