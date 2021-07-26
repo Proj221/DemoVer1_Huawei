@@ -121,9 +121,21 @@ This is Huawei's part for Porj221 Demo Ver1
 + CharaBody and CharaTeacher, seperate bodys between teacher and player (student)
 + TeacherAI, set new blackboard keys
 + TeacherAIBlackboard, change teacher logic, add move to and rotate to
-+ TeacherAIController, disable use controller rotation yaw, enable use controller desired rotation, to make the rotation smoothly
++ CharaTeacher, disable use controller rotation yaw, enable use controller desired rotation, to make the rotation smoothly
 
 ## Ep26_Seperate Student body with Player Body
 + Add 2 new material instance from M_Male_Body to seperate/distinguish teacher (red) with student (green)
 + Seperate TeacherBody, StudentBody and CharaBody (especially for player)
+
+## Ep27_Change student behavior tree
++ MainLevel, add class name change
++ MainGameState, modify some vars
++ CharaBody, modify movement disable and enable
++ CharaStudent, disable use controller rotation yaw, enable use controller desired rotation, to make the rotation smoothly
++ CharaTeacher, add tags to teacher
++ StudentAI, add some logics to distinguish if the character is in conversation, not in conversation but in already move to, or not yet move to target point
++ StudentAIBlackboard, add new teacher notification
++ StudentAIController, change successfully sensed to student sensed, only sense to student discovery
++ CheckInteractionRaised, interaction has some bugs, how to difference the student with the teacher?
++ ConversationDisplay, minor fix
 
