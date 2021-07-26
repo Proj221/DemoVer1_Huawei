@@ -115,3 +115,10 @@ This is Huawei's part for Porj221 Demo Ver1
 + add camera tweak yaw compensation to the movement control
 + add speed control to tweak camera with factor from 1 to 10
 
+## Ep25_Add teacher movement logic
++ MainLevel, add blackboard keys in level blueprint with 2 target points, with 1 as desktop target and the other as the direction
++ MainGameState, change the names in game state
++ CharaBody and CharaTeacher, seperate bodys between teacher and player (student)
++ TeacherAI, set new blackboard keys
++ TeacherAIBlackboard, change teacher logic, add move to and rotate to
++ TeacherAIController, disable use controller rotation yaw, enable use controller desired rotation, to make the rotation smoothly
