@@ -18,9 +18,13 @@ void ADemoVer1_HuaweiPlayerController::PlayerTick(float DeltaTime)
 	Super::PlayerTick(DeltaTime);
 
 	// keep updating the destination every tick while desired
-	if (bMoveToMouseCursor && !bIsCameraRotating && !bInConversation && !bIsKeyboardControl)
+	if (bMoveToMouseCursor && !bIsCameraRotating && !bInConversation)
 	{
 		MoveToMouseCursor();
+	}
+
+	if (bIsKeyboardControl && bCanBreakCursorMove) {
+		BreakMoveToMouseCursor();
 	}
 }
 
@@ -64,10 +68,17 @@ void ADemoVer1_HuaweiPlayerController::MoveToMouseCursor()
 
 		if (Hit.bBlockingHit)
 		{
+			bCanBreakCursorMove = true;
 			// We hit something, move there
 			SetNewMoveDestination(Hit.ImpactPoint);
 		}
 	}
+}
+
+void ADemoVer1_HuaweiPlayerController::BreakMoveToMouseCursor()
+{
+	bCanBreakCursorMove = false;
+	UAIBlueprintHelperLibrary::SimpleMoveToLocation(this, GetPawn()->GetActorLocation());
 }
 
 void ADemoVer1_HuaweiPlayerController::MoveToTouchLocation(const ETouchIndex::Type FingerIndex, const FVector Location)

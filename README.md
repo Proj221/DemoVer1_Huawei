@@ -108,3 +108,6 @@ This is Huawei's part for Porj221 Demo Ver1
 + add if blocked, then make it transparent
 + bug left: 1st first MoveToCursor, then use keyboard control, the character would not be able to move correctly; 2nd after rotating the camera, WASD would not be able to use correctly.
 
+## Ep23_Fix keyboard control and cursor control conflicts
++ add bCanBreak boolean var in CPP
+
