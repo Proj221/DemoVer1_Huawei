@@ -146,5 +146,9 @@ This is Huawei's part for Porj221 Demo Ver1
 ## Ep29_Make the student look at the teacher
 + make the student look at the teacher once they reach the position
 
+## Ep30_Set correct camera rotation when in conversation
++ pass a new variable from CharaStudent to CharaBody with LookAtLocation
++ compensate the camera position with new LookAtLocation
++ move disable and enable movement to a better position
 
 
