@@ -151,4 +151,6 @@ This is Huawei's part for Porj221 Demo Ver1
 + compensate the camera position with new LookAtLocation
 + move disable and enable movement to a better position
 
+## Ep31_Add a debug key on game speed
++ press 0 to accel 5 times faster than the current game speed
 
