@@ -154,3 +154,7 @@ This is Huawei's part for Porj221 Demo Ver1
 ## Ep31_Add a debug key on game speed
 + press 0 to accel 5 times faster than the current game speed
 
+## Ep32_Set new student behavior
++ seperate bubble comp with mood and emoji. Emoji would reflect by notifying the actors while mood would reflect by the sanity
++ add new behavior branches
+
