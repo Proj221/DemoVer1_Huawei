@@ -158,3 +158,10 @@ This is Huawei's part for Porj221 Demo Ver1
 + seperate bubble comp with mood and emoji. Emoji would reflect by notifying the actors while mood would reflect by the sanity
 + add new behavior branches
 
+## Ep33_Set sanity value
++ add sanity concept to student AI
++ add numerical display on top of the bubble comp
++ set sanity drop rate with 4 levels, student would loss level1 + level2 when they are listening, but only level1 when they are idling
++ refactor
+
+
