@@ -164,4 +164,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + set sanity drop rate with 4 levels, student would loss level1 + level2 when they are listening, but only level1 when they are idling
 + refactor
 
+## Ep34_Add sanity zero BB
++ add sanity zero check in BB for seperate sanity high, low with zero
++ when sanity drops to zero, AI would increase sanity value, assuming they are in chating with others
+
+
 
