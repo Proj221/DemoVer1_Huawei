@@ -168,5 +168,9 @@ This is Huawei's part for Porj221 Demo Ver1
 + add sanity zero check in BB for seperate sanity high, low with zero
 + when sanity drops to zero, AI would increase sanity value, assuming they are in chating with others
 
+## Ep35_Change peripheral vision
++ misunderstand the peripheral vision, as the angle indicate here stands for the vision angle for ONE eye
++ change notified actor logic to only detect player
++ change emoji content to only change when detecting the player (will not change to other player)
 
 
