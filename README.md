@@ -173,4 +173,7 @@ This is Huawei's part for Porj221 Demo Ver1
 + change notified actor logic to only detect player
 + change emoji content to only change when detecting the player (will not change to other player)
 
+## Ep36_Add look at distance
++ add new distance var to avoid the issue when encountering with multiple NPCs
+
 
