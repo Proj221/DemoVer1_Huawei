@@ -176,4 +176,9 @@ This is Huawei's part for Porj221 Demo Ver1
 ## Ep36_Add look at distance
 + add new distance var to avoid the issue when encountering with multiple NPCs
 
+## Ep37_Add teacher class content
++ add a teacher bubble comp to indicate class content
++ add new input to match with class content (not completed)
+
+
 
