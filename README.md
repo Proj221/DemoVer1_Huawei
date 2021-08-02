@@ -180,5 +180,10 @@ This is Huawei's part for Porj221 Demo Ver1
 + add a teacher bubble comp to indicate class content
 + add new input to match with class content (not completed)
 
+## Ep38_Add mini game to player at class
++ add type-in mini game when starting the class
++ keyboard input from Z to M is required (the bottom keyboard row)
++ if input is correct, then wisdom +1, sanity-1; if input is incorrect, then wisdom-1, sanity-5
+
 
 
