@@ -185,5 +185,12 @@ This is Huawei's part for Porj221 Demo Ver1
 + keyboard input from Z to M is required (the bottom keyboard row)
 + if input is correct, then wisdom +1, sanity-1; if input is incorrect, then wisdom-1, sanity-5
 
+## Ep39_Add new student sanity reaction
++ if the student sanity drops to zero, the student would raise a text to show "want to say" status
++ if the student is in conversation, the sanity would directly increases to the max value
++ behavior tree change to match the reaction
+
+## Ep40_Add sound effect when class on and off
++ add a sound called Weather Snowball Hitting Wood (just for fun)
 
 
