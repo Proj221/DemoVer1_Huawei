@@ -193,4 +193,4 @@ This is Huawei's part for Porj221 Demo Ver1
 ## Ep40_Add sound effect when class on and off
 + add a sound called Weather Snowball Hitting Wood (just for fun)
 
-
+## Ep41_Add some new guys into scenes and rearrange scene objects
